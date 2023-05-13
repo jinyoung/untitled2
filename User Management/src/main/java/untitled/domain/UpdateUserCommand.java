@@ -1,0 +1,16 @@
+package untitled.domain;
+
+import java.util.Date;
+import java.util.List;
+import javax.persistence.*;
+import lombok.Data;
+
+@Data
+public class UpdateUserCommand {
+
+    private string userId;
+    private string userName;
+    private string userEmail;
+    private string userPassword;
+    private string userRole;
+}
